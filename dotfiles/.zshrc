@@ -1,4 +1,5 @@
 # users generic .zshrc file for zsh(1)
+PS1="%n@%m:%~$ "
 
 # auto change directory
 #
@@ -59,3 +60,6 @@ compinit
 # expand aliases before completing
 #
 setopt complete_aliases # aliased ls needs if file/dir completions work
+
+# source my scripts
+source ~/scripts/mycommon.sh
